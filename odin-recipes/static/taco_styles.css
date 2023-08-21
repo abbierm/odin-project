@@ -1,0 +1,71 @@
+body {
+    font-family: "Oxygen Mono", monospace;
+}
+
+h1 {
+    color: #257a5d;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipe-title {
+    color: #257a5d;
+    text-align: center;
+}
+.salad-pic {
+    width: 80vw;
+    max-width: 500px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.description-box {
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    max-width: 720px;
+}
+
+.skinny-salad-pic {
+    max-width: 20rem;
+    margin: 20px 0px;
+}
+
+.salad-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 720px;
+}
+
+.instructions-box {
+    padding: auto;
+    margin: 10px;
+}
+
+.salad-ingredients {
+    list-style-type: disc;
+    text-align: left;
+}
+
+.directions-box {
+    align-content: center;
+    padding: auto;
+    margin: 10px;
+    max-width: 350px;
+}
+
+.salad-instructions {
+    text-align: left;
+}

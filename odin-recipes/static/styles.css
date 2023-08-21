@@ -1,0 +1,81 @@
+body {
+    font-family: "Oxygen Mono", monospace;
+}
+
+h1 {
+    color: #257a5d;
+}
+
+.wide-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    text-align: center;
+}
+
+.header {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mountain-pic {
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+}
+
+.no-dots {
+    list-style-type: none;
+}
+
+
+.paragraph {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-content {
+    margin: 16px;
+}
+
+.title-box {
+    text-align: center;
+}
+
+.recipe-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 720px;
+}
+
+.banana-pic {
+    max-width: 20rem;
+    margin: 20px 0px;
+}
+.column.image {
+    width: 100%;
+}
+
+.directions-box {
+    width: 50%;
+    padding: auto;
+    margin: 10px;
+}
+
+.ingredients-title {
+    color:#257a5d;
+    text-align: center;
+}
+
+.ingredient-list-items{
+    text-align: left;
+}
+
